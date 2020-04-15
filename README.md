@@ -12,6 +12,7 @@ Our project was intended to create an autonomous vehicle with capabilities to mo
 
 ### Mapping
 Due to the fact that the lidar that we had didn't work very well outside, we needed to figure out a way to map outdoors using camera input. To get this done, we used RTAB-Map. We had some computational constraints while using this as we had to make very small movements between frames or else it would lose localization. Through this technology, we were able to Map out our route on campus. 
+
 ![Mapped Out Campus Raw Image](images/raw_map.png)
 
 We then cleaned our map manually, since our computational constraints limited our abilities to use loop closures.
