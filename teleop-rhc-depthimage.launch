@@ -1,0 +1,35 @@
+<!-- -*- mode: XML -*- -->
+<launch>
+  <!-- Could be racecar-mit, racecar-uw-tx2, or racecar-uw-nano -->
+  <arg name="racecar_version" default="racecar-uw-nano" />
+
+  <param name="robot_description"
+         textfile="$(find mushr_description)/robots/$(arg racecar_version).urdf"/>
+  <group ns="vesc">
+  	<include file="$(find vesc_main)/launch/vesc.launch">
+        	<arg name="racecar_version" value="$(arg racecar_version)" />
+  	</include>
+  </group>
+
+  <group ns="mux">
+      <include file="$(find ackermann_cmd_mux)/launch/mux.launch" />
+  </group>
+
+  <include file="$(find mushr_hardware)/launch/$(arg racecar_version)/sensors-no-lidar.launch" >
+      <arg name="racecar_version" value="$(arg racecar_version)" />
+  </include>
+
+  <include file="$(find mushr_base)/launch/includes/racecar_state.launch" />
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="state_publisher"/>
+
+  <include file="$(find darknet_ros)/launch/darknet_ros.launch" />
+
+  <include file="$(find mushr_pf)/launch/real.launch"/>
+
+  <include file="$(find mushr_rhc_ros)/launch/real/real.launch" />
+
+  <node name="depthimage_to_laserscan" pkg="depthimage_to_laserscan" type="depthimage_to_laserscan" > 
+    <remap from="image" to="/camera/depth/image_rect_raw"/>
+  </node>
+
+</launch>
