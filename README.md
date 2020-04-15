@@ -15,7 +15,7 @@ Due to the fact that the lidar that we had didn't work very well outside, we nee
 ![Mapped Out Campus Raw Image](https://https://github.com/guadr/MuSHR-information/images/raw_map.png)
 
 We then cleaned our map manually, since our computational constraints limited our abilities to use loop closures.
-![Mapped Out Campus Cleaned Image](https://https://github.com/guadr/MuSHR-information/images/cleaned_map.png)
+![Mapped Out Campus Cleaned Image](images/cleaned_map.png)
 
 This step was completely finished for our project.
 
