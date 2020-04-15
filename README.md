@@ -1,2 +1,12 @@
-# MuSHR-Scripts
-Here we have stored our scripts that run on our MuSHR robotics platform. 
+# MuSHR-information
+
+First and foremost we want to credit 
+@article{srinivasa2019mushr,
+ title={{M}u{SHR}: {A} Low-Cost, Open-Source Robotic Racecar for Education and Research},
+ author={Srinivasa, Siddhartha S. and Lancaster, Patrick and Michalove, Johan and Schmittle, Matt and Summers, Colin and Rockett, Matthew and Smith, Joshua R. and Chouhury, Sanjiban and Mavrogiannis, Christoforos and Sadeghi, Fereshteh},
+ journal={CoRR},
+ volume={abs/1908.08031},
+ year={2019}
+}
+
+
