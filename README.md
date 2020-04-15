@@ -1,9 +1,10 @@
 # MuSHR-information
 
-First and foremost we want to site the MuSHR project for their support and donation of the bot<br/>
+*First and foremost we want to site the MuSHR project for their support and donation of the bot*<br/><br/>
+
 Srinivasa, S.S., Lancaster, P.E., Michalove, J., Schmittle, M., Summers, C., Rockett, M., Smith, J.R., Choudhury, S., Mavrogiannis, C.I., & Sadeghi, F. (2019). MuSHR: A Low-Cost, Open-Source Robotic Racecar for Education and Research. ArXiv, abs/1908.08031.
 
-We also would like to site yolo <br />
+*We also would like to site yolo*<br/><br/>
 Redmon, J., & Farhadi, A. (2018). YOLOv3: An Incremental Improvement. ArXiv, abs/1804.02767.
 
 ## Overviews
