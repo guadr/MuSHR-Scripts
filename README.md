@@ -29,7 +29,10 @@ For object detection, we decided to use YoloV3 (You Only Look Once), as cited ea
 
 
 ### Autonomous Navigation
-For basic autonomous navigation we leveraged the mushr nav stack that uses a particle filter for localization and a Receding Horizon Controller for path planning in order to operate the bot. This worked well for our indoor testing environment, which we were able to test it on before the coronavirus hit. 
+For basic autonomous navigation we leveraged the mushr nav stack that uses a particle filter for localization and a Receding Horizon Controller for path planning in order to operate the bot. We had to change the particle filter to using camera input and then changing the input to a "particle filter" look in order to get accuracy without the lidar. This worked well for our indoor testing environment, which we were able to test it on before the coronavirus hit. 
 
 **Future steps**
 1. Deign a nav stack that works well for outdoor navigation within a constrained environment. This was our next step in the process before pivoting to web-design work due to the virus. 
+
+### Files
+We have posted our launch file in "files" that is currently runs our object detection, and the basic MuSHR nav stack. 
