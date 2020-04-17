@@ -61,3 +61,8 @@ roslaunch rtabmap_ros rtabmap.launch rtabmap_args:="--delete_db_on_start --Optim
 7. The map is located at ~/.ros/rtabmap.db
 
 Above steps were found at http://wiki.ros.org/rtabmap_ros/Tutorials/HandHeldMapping
+
+# Expansions - TODO
+1. Create a Decision Making Node based off of the Yolo Node
+2. Integrate an outdoor navigation stack
+3. Connect to frontend endpoints to listen on deliveries.
