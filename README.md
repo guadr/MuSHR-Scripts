@@ -7,8 +7,8 @@ Srinivasa, S.S., Lancaster, P.E., Michalove, J., Schmittle, M., Summers, C., Roc
 </br>*We also would like to site yolo*<br/><br/>
 Redmon, J., & Farhadi, A. (2018). YOLOv3: An Incremental Improvement. ArXiv, abs/1804.02767.
 
-## Overviews
-Our project was intended to create an autonomous vehicle with capabilities to move around on campus. Unfortunately, we ran into some issues due to the coronavirus that made it so we couldn't continue on to final steps with our process. But below we have outlined some of the steps we took on this project. On the robotics side, we needed to figure out how to do a few steps on our bot.
+## Overview
+Our project was intended to create an autonomous vehicle with capabilities to move around on campus. Unfortunately, we ran into some issues due to the coronavirus that made it so we couldn't continue on to final steps with our process. But below we have outlined some of the steps we took on this project. On the robotics side, we needed to figure out how to do a few steps on our bot. To get our launch file running you will need to install the nodes from https://mushr.io/tutorials/navigation/,  https://github.com/leggedrobotics/darknet_ros and https://github.com/ros-perception/depthimage_to_laserscan
 
 ### Mapping
 Due to the fact that the lidar that we had didn't work very well outside, we needed to figure out a way to map outdoors using camera input. To get this done, we used RTAB-Map. We had some computational constraints while using this as we had to make very small movements between frames or else it would lose localization. Through this technology, we were able to Map out our route on campus. 
